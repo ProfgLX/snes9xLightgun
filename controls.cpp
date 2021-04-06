@@ -453,7 +453,7 @@ void S9xUnmapAllControls (void)
 		justifier.ID[i] = InvalidControlID;
 
 		if (!(justifier.crosshair[i].set & 1))
-			justifier.crosshair[i].img = 4;
+			justifier.crosshair[i].img = 0;	// No image for lightgun users
 		if (!(justifier.crosshair[i].set & 2))
 			justifier.crosshair[i].fg  = i ? 14 : 12;
 		if (!(justifier.crosshair[i].set & 4))
@@ -469,7 +469,7 @@ void S9xUnmapAllControls (void)
 	superscope.ID = InvalidControlID;
 
 	if (!(superscope.crosshair.set & 1))
-		superscope.crosshair.img = 2;
+		superscope.crosshair.img = 0;	// No image for lightgun users
 	if (!(superscope.crosshair.set & 2))
 		superscope.crosshair.fg  = 5;
 	if (!(superscope.crosshair.set & 4))
@@ -480,7 +480,7 @@ void S9xUnmapAllControls (void)
 	macsrifle.ID = InvalidControlID;
 
 	if (!(macsrifle.crosshair.set & 1))
-		macsrifle.crosshair.img = 2;
+		macsrifle.crosshair.img = 0;	// No image for lightgun users
 	if (!(macsrifle.crosshair.set & 2))
 		macsrifle.crosshair.fg  = 5;
 	if (!(macsrifle.crosshair.set & 4))
