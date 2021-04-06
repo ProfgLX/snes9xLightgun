@@ -1,3 +1,5 @@
+This is a simple fork of Snes9x for lightgun users who don't wish to have a crosshair showing in Super Scope and Justifier games.
+
 # Snes9x
 *Snes9x - Portable Super Nintendo Entertainment System (TM) emulator*
 
